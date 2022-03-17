@@ -37,13 +37,13 @@ export function Header() {
           <NavHashLink smooth to="#home" onClick={closeMenu}>
             Home
           </NavHashLink>
-          <NavHashLink smooth to="#sobre" onClick={closeMenu}>
+          <NavHashLink smooth to="#contact" onClick={closeMenu}>
             About me
           </NavHashLink>
           <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
             Fortfolio
           </NavHashLink>
-          <NavHashLink smooth to="#contato" onClick={closeMenu}>
+          <NavHashLink smooth to="#contat" onClick={closeMenu}>
             Contact
           </NavHashLink>
           <a href={Curriculo} download className="button">
@@ -54,7 +54,7 @@ export function Header() {
         <div
           aria-expanded={isActive ? 'true' : 'false'}
           aria-haspopup="true"
-          aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
+          aria-label={isActive ? 'Close menu' : 'Open menu'}
           className={isActive ? 'menu active' : 'menu'}
           onClick={() => {
             setActive(!isActive)
