@@ -78,6 +78,7 @@ export function Form() {
         />
         <ReCAPTCHA
           sitekey="6LeJfuweAAAAAE1ozrpNngprOzck3i2Idw6ymjNw"
+          theme="dark"
           onChange={(e) => {
             setIsHuman(true)
           }}

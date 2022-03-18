@@ -23,7 +23,7 @@ export const Container = styled.div`
       outline: none;
       border: none;
       background:none;
-      border: 1px solid #FFF;
+      border: 1px solid #333;
       color: white;
       font-weight: 600;
       &::placeholder{
