@@ -10,12 +10,14 @@ import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import mysqlIcon from "../../assets/mysql-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
+// import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
+// import typescriptIcon from "../../assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/vscode-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
+// import vueIcon from "../../assets/vue-icon.svg";
+import photoshopIcon from "../../assets/photoshop-icon.svg"
+import illustratorIcon from "../../assets/illustrator-icon.svg"
 
 
 export function Main(){
@@ -176,11 +178,11 @@ export function Main(){
                 "width": 20,
                 "height": 20
               },
-              {
-                "src": nodeIcon,
-                "width": 20,
-                "height": 20
-              },
+              // {
+              //   "src": nodeIcon,
+              //   "width": 20,
+              //   "height": 20
+              // },
               {
                 "src": reactIcon,
                 "width": 20,
@@ -191,18 +193,28 @@ export function Main(){
                 "width": 20,
                 "height": 20
               },
-              {
-                "src": typescriptIcon,
-                "width": 20,
-                "height": 20
-              },
+              // {
+              //   "src": typescriptIcon,
+              //   "width": 20,
+              //   "height": 20
+              // },
               {
                 "src": vscodeIcon,
                 "width": 20,
                 "height": 20
               },
+              // {
+              //   "src": vueIcon,
+              //   "width": 20,
+              //   "height": 20
+              // },
               {
-                "src": vueIcon,
+                "src": photoshopIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": illustratorIcon,
                 "width": 20,
                 "height": 20
               },

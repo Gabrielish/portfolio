@@ -49,7 +49,7 @@ export function Form() {
 
   return (
     <Container>
-      <h2>Get in touch using the form below</h2>
+      <h2>Get in touch</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -87,7 +87,9 @@ export function Form() {
           type="submit"
           disabled={state.submitting || !validEmail || !message || !isHuman}
         >
-          Send
+          Send 
+          {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg> */}
+            
         </button>
       </form>
       <ToastContainer />
