@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
 
       body{
         transition: 0.5s;
-        background-color: #f5f5f5;
+        background-color: #f9f9f9;
         color: var(--black);
       }
 
@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
 
       header.header-fixed{
         transition: 0.5s;
-        background-color: #f5f5f550;
+        background-color: #f9f9f950;
         a{
           transition: 0.5s;
           color: black;

@@ -3,6 +3,7 @@ import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
+
 export function Hero(){
   return(
     <Container id="home">
