@@ -23,15 +23,15 @@ export function Header() {
           <span>B</span>
           <span>Gabriel</span>
         </HashLink>
-
-        <input
+        {/* TODO Change light mode colors */}
+        {/* <input
           onChange={toggleTheme}
           className="container_toggle"
           type="checkbox"
           id="switch"
           name="mode"
         />
-        <label htmlFor="switch">Toggle</label>
+        <label htmlFor="switch">Toggle</label> */}
 
         <nav className={isActive ? 'active' : ''}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>

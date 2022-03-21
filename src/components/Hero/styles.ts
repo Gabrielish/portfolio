@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
-
 export const Container = styled.section`
   padding-top: 15%;
   display: flex;
   justify-content: space-between;
   gap: 8rem;
   background: rgba(0,0,0,0);
+  h1, h3, p {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  }
   .hero-text{
     & > p{
       font-size: 1.8rem;
@@ -36,7 +38,6 @@ export const Container = styled.section`
       max-width: 500px;
     }
   }
-
 
   @media(max-width: 960px){
     display: block;

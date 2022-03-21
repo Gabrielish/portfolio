@@ -6,6 +6,7 @@ import { NavHashLink } from "react-router-hash-link"
 
 export function Hero(){
   return(
+    
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
@@ -20,7 +21,6 @@ export function Hero(){
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">I'm a graphic designer with a focus on web development with JavaScript.</p>
         </ScrollAnimation>
-
           <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
             <BrowserRouter>
               <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
@@ -29,9 +29,10 @@ export function Hero(){
       </div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1*1000}>
-          <img src={Illustration} alt="Illustration"/>
+          {/* <img src={Illustration} alt="Illustration"/> */}
         </ScrollAnimation>
       </div>
     </Container>
+
   )
 }

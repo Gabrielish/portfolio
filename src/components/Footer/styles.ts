@@ -29,7 +29,13 @@ export const Container = styled.footer`
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-
+    a img{
+      transition: filter 0.25s;
+    }
+    a img:hover {
+    filter: brightness(0.8);
+  }
+    }
     img,span{
       font-size: 3rem;
       width: 3rem;
