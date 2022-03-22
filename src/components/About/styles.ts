@@ -26,12 +26,12 @@ export const Container = styled.section`
   h2{
     display: inline-block;
     margin-bottom: 2rem;
-    border-bottom: 0.2rem solid var(--blue);
+    border-bottom: 0.2rem solid var(--yellow);
   }
 
   h3{
     margin-top: 2rem;
-    color: var(--green);
+    color: var(--yellow);
   }
 
   p{

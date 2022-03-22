@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     --pink: #E31F71;
     --black: #18191A;
     --green: #23ce6b;
+    --yellow: #ffba00;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
@@ -95,7 +96,7 @@ export const GlobalStyle = createGlobalStyle`
   button, .button{
     border: none;
     cursor: pointer;
-    background-color: var(--green);
+    background-color: var(--yellow);
     color: #FFFF;
     border-radius: 2rem;
     font-weight: 500;
@@ -115,7 +116,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 3rem;
     color: #FFFF;
     &::first-letter{
-      color: var(--green);
+      color: var(--yellow);
     }
   }
   
