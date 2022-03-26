@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
+  
   padding-top: 15%;
   display: flex;
   justify-content: space-between;
@@ -14,10 +15,12 @@ export const Container = styled.section`
       font-size: 1.8rem;
     }
     h1{
+      font-family: 'Founders Grotesk', 'Inter';
       font-size: 7rem;
     }
 
     h3{
+      font-family: 'Founders Grotesk', 'Inter';
       color:var(--yellow);
       margin: 1rem 0;
     }

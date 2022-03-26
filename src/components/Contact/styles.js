@@ -7,6 +7,7 @@ export const Container = styled.section`
   header{
     text-align: center;
     h2{
+      font-family: 'Founders Grotesk', 'Inter';
       text-align: center;
       font-size: 4rem;
     }

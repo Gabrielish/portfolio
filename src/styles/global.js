@@ -1,7 +1,9 @@
 import { createGlobalStyle } from "styled-components";
+import '../fonts/founders-grotesk-bold.woff2'
+
 
 export const GlobalStyle = createGlobalStyle`
-
+  
   :root{
     --pink: #E31F71;
     --black: #18191A;
@@ -9,7 +11,10 @@ export const GlobalStyle = createGlobalStyle`
     --yellow: #ffba00;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
-
+    @font-face {
+    font-family: 'Founders Grotesk';
+    src: url(${require('../fonts/founders-grotesk-bold.woff2')}) format("woff2");
+  }
     &.light{
 
       body{
@@ -58,8 +63,6 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-
-
   ul, li {
     text-decoration: none;
     list-style: none;
@@ -85,7 +88,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
   }
 
@@ -113,6 +116,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
   .logo{
+    font-family: 'Founders Grotesk', 'Inter', sans-serif;
     font-size: 3rem;
     color: #FFFF;
     &::first-letter{

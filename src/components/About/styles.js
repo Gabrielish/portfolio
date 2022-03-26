@@ -24,12 +24,14 @@ export const Container = styled.section`
   }
 
   h2{
+    font-family: 'Founders Grotesk', 'Inter';
     display: inline-block;
     margin-bottom: 2rem;
     border-bottom: 0.2rem solid var(--yellow);
   }
 
   h3{
+    font-family: 'Founders Grotesk', 'Inter';
     margin-top: 2rem;
     color: var(--yellow);
   }

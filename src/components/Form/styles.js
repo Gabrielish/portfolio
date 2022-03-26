@@ -6,6 +6,7 @@ export const Container = styled.div`
   display: grid;
   place-items: center;
   h2{
+    font-family: 'Founders Grotesk', 'Inter';
     text-align: center;
     margin-bottom: 2rem;
   }

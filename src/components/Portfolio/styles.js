@@ -5,6 +5,7 @@ export const Container = styled.section`
   margin-top: 15rem;
 
   h2{
+    font-family: 'Founders Grotesk', 'Inter';
     text-align: center;
     font-size: 4rem;
     margin-bottom: 10rem;

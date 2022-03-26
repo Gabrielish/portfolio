@@ -18,13 +18,14 @@ export const Container = styled.header`
   z-index: 1000;
 
   nav{
+    
     display: flex;
     align-items: center;
     gap: 1.8rem;
     a{
       color: #FFFF;
       padding: 0.6rem;
-      font-family: 'Red Hat Display', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 500;
       text-transform: uppercase;
       transition: filter 0.25s;
