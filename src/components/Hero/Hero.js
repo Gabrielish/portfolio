@@ -3,6 +3,8 @@ import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
+import Typical from 'react-typical'
+
 
 export function Hero(){
   return(
@@ -16,7 +18,18 @@ export function Hero(){
           <h1>Gabriel Bundea</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Front-end Web Developer</h3>
+          <Typical
+          steps={[
+            'Front-end Web Developer', 
+            5000,
+            'Graphic Designer',
+            5000,
+            'Photographer',
+            5000,
+          ]}
+          loop={Infinity}
+          wrapper="h3"
+          />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">I'm a graphic designer with a focus on web development with JavaScript.</p>

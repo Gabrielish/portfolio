@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   
-  padding-top: 15%;
+  padding-top: 13%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: space-between;
   gap: 8rem;
   background: rgba(0,0,0,0);
   
   h1, h3, p {
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
   .hero-text{
     /* & > p{
@@ -49,7 +50,8 @@ export const Container = styled.section`
 
   @media(max-width: 960px){
     display: block;
-    margin-top: 15%;
+    margin-top: 10%;
+    padding-bottom: 0px;
     .hero-text{
 
       h1{
@@ -66,9 +68,11 @@ export const Container = styled.section`
   }
 
   @media(max-width: 600px){
-    margin-top: 25%;
+    margin-top: 15%;
+    padding-bottom: 0px;
   }
   @media(max-width: 480px){
     margin-top: 35%;
+    padding-bottom: 0px;
   }
 `

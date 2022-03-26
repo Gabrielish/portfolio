@@ -13,6 +13,7 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 // import vueIcon from "../../assets/vue-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg"
 import githubIcon from "../../assets/github-icon.svg"
+import portrait from "../../assets/portrait.jpg"
 
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -99,7 +100,7 @@ export function About(){
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://scontent.fcra1-1.fna.fbcdn.net/v/t1.6435-9/120307977_1549722078549419_8530429116466490678_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_ohc=UH8hBZTM7WIAX8DsByP&_nc_ht=scontent.fcra1-1.fna&oh=00_AT_jJq0rqGE56Tdu8OfcoEbgVmIL3zqt1Xlj7ONjCbOkQQ&oe=62573F0D" alt="Imagem de perfil" />
+          <img src={portrait} alt="Imagem de perfil" />
         </ScrollAnimation>
       </div>
     </Container>

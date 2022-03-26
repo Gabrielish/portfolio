@@ -21,7 +21,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>B</span>
+          <span className='logo-border'>B</span>
           <span>Gabriel</span>
         </HashLink>
         {/* TODO Change light mode colors */}
@@ -42,7 +42,7 @@ export function Header() {
             About me
           </NavHashLink>
           <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
-            Fortfolio
+            Portfolio
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact

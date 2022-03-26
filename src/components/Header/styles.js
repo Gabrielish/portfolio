@@ -35,10 +35,14 @@ export const Container = styled.header`
       }
 
       &:hover{
-        filter: brightness(0.6);
+        color: var(--yellow);
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        /* filter: brightness(0.6); */
       }
     }
-
+    .button:hover {
+        color: #fff;
+      }
   }
 
 
