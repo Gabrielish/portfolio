@@ -48,8 +48,9 @@ export const Container = styled.section`
         a > img {
           width: 2.6rem;
         }
+        
       }
-      
+
       h3{
         margin-bottom: 2rem;
       }

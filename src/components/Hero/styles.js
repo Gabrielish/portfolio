@@ -7,12 +7,16 @@ export const Container = styled.section`
   justify-content: space-between;
   gap: 8rem;
   background: rgba(0,0,0,0);
+  
   h1, h3, p {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   }
   .hero-text{
-    & > p{
+    /* & > p{
       font-size: 1.8rem;
+    } */
+    p{
+      font-size: 2rem;
     }
     h1{
       font-family: 'Founders Grotesk', 'Inter';
@@ -23,6 +27,7 @@ export const Container = styled.section`
       font-family: 'Founders Grotesk', 'Inter';
       color:var(--yellow);
       margin: 1rem 0;
+      font-size: 3rem;
     }
 
     
@@ -49,6 +54,9 @@ export const Container = styled.section`
 
       h1{
         font-size: 5rem;
+      }
+      h3{
+        font-size: 2.5rem;
       }
     }
     
