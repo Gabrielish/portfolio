@@ -16,7 +16,6 @@ export function Header() {
     setActive(false)
   }
 
-
   return (
     <Container className="header-fixed">
       <Router>

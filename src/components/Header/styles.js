@@ -16,7 +16,6 @@ export const Container = styled.header`
   left: 0;
   width: 100vw;
   z-index: 1000;
-
   nav{
     
     display: flex;
@@ -45,6 +44,13 @@ export const Container = styled.header`
       }
   }
 
+  .nav-link {
+    border: 2px solid transparent;
+}
+
+  .nav-link.active {
+    border-color: red;
+}
 
   .menu-container{
     cursor: pointer;
@@ -184,6 +190,9 @@ export const Container = styled.header`
       &.active{
         opacity: 1;
         visibility: visible;
+      }
+      nav:hover {
+        color: #FFF;
       }
     }
   }
