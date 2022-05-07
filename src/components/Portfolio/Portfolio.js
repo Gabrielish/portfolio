@@ -22,16 +22,14 @@ export function Portfolio(){
           </div>
           </header>
           <div className="body">
-            <h3>Graphic Designer</h3>
+            <h3>Graphic Designs</h3>
             <p>Here are all my projects within the<a href="https://agropro.ro/"> company</a> I work in for 2 years, from banners, product designs, product labels, box designs made in adobe photoshop / illustrator.
             </p>
           </div>
           <footer>
             <ul className="tech-list">
-              <li>Node</li>
-              <li>Express</li>
-              <li>MySql</li>
-              <li>Ejs</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
             </ul>
           </footer>
         </div>
